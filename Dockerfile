@@ -21,4 +21,4 @@ COPY . /content
 EXPOSE 8888 8080
 
 ENTRYPOINT ["/bin/sh"]
-CMD ["./start.sh"]
+# CMD ["./start.sh"]
