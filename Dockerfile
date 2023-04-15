@@ -16,7 +16,7 @@ RUN apt-get update \
     && python -m pip install jupyter \
     && python -m pip install -r requirements.txt
 
-COPY . /content
+COPY . /content/so-vits-svc
 
 EXPOSE 8888 8080
 
